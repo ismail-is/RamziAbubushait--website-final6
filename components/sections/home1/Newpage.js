@@ -30,7 +30,7 @@ export default function Newpage() {
                     {/* End About One Img*/} 
 
                     {/* Start About One Content*/} 
-                    <div className="col-xl-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div className="col-xl-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms" style={{marginTop:'50px'}} id="Fabrication">
                         <div className="about-one__content">
                             <div className="sec-title tg-heading-subheading animation-style2">
                                 <div className="sec-title__tagline">

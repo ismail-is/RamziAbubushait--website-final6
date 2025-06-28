@@ -256,7 +256,7 @@ export default function Team() {
                         </div>
                     </div>
 
-                       <div className="col-xl-6" style={{marginTop:'20px'}}>
+                       <div className="col-xl-6" id='mission'>
                         <div className="team-one__right">
                             <div className="swiper-container" id="team-one__carousel">
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
