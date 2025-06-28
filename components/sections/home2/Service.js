@@ -171,7 +171,7 @@ export default function Service() {
 
                                                 <div className="content-box">
                                                     <div className="text">
-                                                        <h3 style={{marginLeft:'-70px'}} id="ourService"><Link href="Engineeringental">Engineering Design Services</Link>
+                                                        <h3 style={{marginLeft:'-90px'}} id="ourService"><Link href="Engineeringental">Engineering Design Services</Link>
                                                         </h3>
                                                     </div>
 

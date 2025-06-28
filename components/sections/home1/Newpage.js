@@ -8,7 +8,7 @@ export default function Newpage() {
         <section className="about-one" style={{backgroundColor:'white'}}>
             {/* <div className="shape1 float-bob-y"><img src="assets/images/shapes/about-v1-shape1.png" alt=""/></div> */}
             <div className="shape2"><img src="assets/images/shapes/about-v1-shape2.png" alt=""/></div>
-            <div className="container" style={{marginTop:'-80px',marginBottom:'-60px'}}>
+            <div className="container" style={{marginTop:'-50px',marginBottom:'-60px'}}>
                 <div className="row">
                     {/* Start About One Counter*/} 
                    
@@ -114,7 +114,9 @@ every size and complexity
                                    
                                 </div>
                                 <h2 className="sec-title__title tg-element-title"  style={{textAlign:'center'}}>What We <span style={{color:'#F80000'}}>Offer:
-</span></h2>
+</span>
+</h2>
+
                                    {/* <h5 style={{color:'#F80000'}}>Precision Engineering. Built to Perform</h5> */}
                             </div>
                   <div className="services-details__content-text3">
@@ -125,7 +127,9 @@ every size and complexity
 
 
                                     <div className="col-xl-6 col-lg-6 col-md-6">
-                                        <h5 style={{color:'#F80000'}}>Structural Steel Fabrication</h5>
+                                        
+                                        <h2 style={{color:'#F80000',marginBottom:'10px'}}>Structural Steel Fabrication</h2>
+                                        
                                         <p style={{color:'white'}}>We manufacture steel frameworks and load-bearing structures that
 meet engineering precision and site-specific demands.
 </p>
@@ -164,7 +168,7 @@ meet engineering precision and site-specific demands.
 
 
                                     <div className="col-xl-6 col-lg-6 col-md-6">
-                                        <h5 style={{color:'#F80000'}}>Custom Metal Fabrication</h5>
+                                        <h2 style={{color:'#F80000',marginBottom:'10px'}}>Custom Metal Fabrication</h2>
                                         <p style={{color:'white'}}>Tailored fabrication of mild steel, stainless steel, and aluminum for
 specialized industrial applications.
 </p>
@@ -203,7 +207,7 @@ specialized industrial applications.
 
 
                                     <div className="col-xl-6 col-lg-6 col-md-6">
-                                        <h5 style={{color:'#F80000'}}>Welding & Assembly</h5>
+                                        <h2 style={{color:'#F80000',marginBottom:'10px'}}>Welding & Assembly</h2>
                                         <p style={{color:'white'}}>Certified welding (MIG, TIG, ARC) with skilled workforce and in-house
 quality inspection.
 </p>
@@ -278,9 +282,9 @@ quality inspection.
                                                 <li>
                                                     <p><span className="icon-verified" ></span>&nbsp;&nbsp; 2D/3D CAD fabrication design and drafting</p>
                                                 </li>
-                                                <li>
+                                                {/* <li>
                                                     <p><span className="icon-verified" ></span> &nbsp;&nbsp;Load testing and inspection documentation</p>
-                                                </li>
+                                                </li> */}
                                                 <br/>
                                                 <br/>
                                             </ul>
